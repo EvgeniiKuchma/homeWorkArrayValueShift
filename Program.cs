@@ -30,10 +30,10 @@ namespace homeWorkФrray_value_shift
             for (int j = 0; j < userInputShitLeft; j++)
             {
                 temp = digitalArray[0];
+
                 for (int i = 0; i < digitalArray.Length - 1; i++)
                 {
                     digitalArray[i] = digitalArray[i + 1];
-
                 }
 
                 digitalArray[digitalArraySize - 1] = temp;
