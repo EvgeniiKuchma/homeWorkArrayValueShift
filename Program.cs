@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace homeWorkФrray_value_shift
 {
@@ -29,7 +23,8 @@ namespace homeWorkФrray_value_shift
             }
 
             Console.WriteLine();
-            Console.Write("Enter the value of the desired shift: ");
+
+            Console.Write("Enter the value of the desired left shift: ");
             userInputShitLeft = Convert.ToInt32(Console.ReadLine());
 
             for (int j = 0; j < userInputShitLeft; j++)
